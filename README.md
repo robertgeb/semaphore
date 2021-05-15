@@ -5,7 +5,7 @@
 Print `i love flan` one per second, ten times
 
 ```ts
-import Semaphore from 'semaphore';
+import Semaphore from 'semaphore-throughput';
 
 let max_concurrency = 1; // Concurrency limit
 let max_throughput = 1; // Process rate per second
@@ -26,3 +26,7 @@ for (let i = 0; i < 10; i++) {
     })    
 }
 ```
+
+### Instalation
+
+`npm i semaphore-throughput --save`

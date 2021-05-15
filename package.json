@@ -1,5 +1,5 @@
 {
-  "name": "semaphore",
+  "name": "semaphore-throughput",
   "version": "1.0.0",
   "description": "Process Semaphore to control throughput and concurrency flow",
   "main": "dist/semaphore.js",
