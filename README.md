@@ -2,9 +2,11 @@
 
 ### Example usage
 
-Print 'i love flan' one per second, ten times
+Print `i love flan` one per second, ten times
 
-```
+```ts
+import Semaphore from 'semaphore';
+
 let max_concurrency = 1; // Concurrency limit
 let max_throughput = 1; // Process rate per second
 let sem = new Semaphore(max_concurrency, max_throughput);
