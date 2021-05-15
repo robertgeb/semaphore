@@ -1,0 +1,29 @@
+{
+  "name": "semaphore",
+  "version": "1.0.0",
+  "description": "Process Semaphore to control throughput and concurrency flow",
+  "main": "dist/semaphore.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertgeb/semaphore.git"
+  },
+  "keywords": [
+    "semaphore",
+    "promise",
+    "concurrency",
+    "async",
+    "await",
+    "flow",
+    "pool"
+  ],
+  "author": "Robert Gebhardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertgeb/semaphore/issues"
+  },
+  "homepage": "https://github.com/robertgeb/semaphore#readme"
+}

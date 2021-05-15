@@ -1,12 +1,7 @@
-# semaphore
+import Semaphore from '../src/semaphore'
 
-### Example usage
-
-Print 'i love flan' one per second, ten times
-
-```
-let max_concurrency = 1; // Concurrency limit
-let max_throughput = 1; // Process rate per second
+let max_concurrency = 2; // Concurrency limit
+let max_throughput = 20; // Process rate per second
 let sem = new Semaphore(max_concurrency, max_throughput);
 
 for (let i = 0; i < 10; i++) {
@@ -23,4 +18,3 @@ for (let i = 0; i < 10; i++) {
         sem.release();
     })    
 }
-```
